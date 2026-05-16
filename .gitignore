@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+env/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Streamlit
+.streamlit/
+
+# Project specifics
+*.db
+hedge_fund.db
+uploads/
+data/raw/
+output.txt
+output_utf8.txt
+inspect_data.py
+test_inference.py
+test_logic.py
+run_import.py
+
+# OS generated files
+.DS_Store
+Thumbs.db
